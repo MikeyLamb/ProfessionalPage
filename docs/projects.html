@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"> 
+    <title>Projects</title>
+    <link rel= "stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons_32.png">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1><a class="HTMLRef" href="index.html">Michael Lambrecht</a></h1>
+        <ul class="nav-links">
+      <li class="OtherPage">  <a class="HTMLRef" href="index.html">Home</a></li>
+      <li class="CurPage"><a class="HTMLRef" href="projects.html">Projects</a></li>
+      <li class="OtherPage"><a class="HTMLRef" href="contact.html">Contact</a></li>
+    </ul>
+    </header>
+    <h1 style=" margin-top: 120px;">LULC Machine Learning for Kilala, Kenya</h1>
+    
+    <!-- Short Paragraph -->
+    <p style="width: 60%; text-align: justify; margin: 0 auto; margin-top: 20px;">
+        I created and ran two machine learning techniques for a farming region near the town of Kilala, a major maize growing region in Kenya. Here I used QGIS to create training input data and validation data and then used R Studio to run the SVM and RF machine learning models and to calculate the results based on the validation dataset.</p>
+
+    <!-- Image -->
+    <img style="width:60%" src="LULC_Kilala.jpeg" alt="Your Image Description">
+
+    <!-- Line -->
+    <div style="margin-bottom: 50px; margin-top: 50px;" class="line"></div>
+    
+    <h1>TensorFlow Binary Classification of Grape Crowing Regions in Wellington, South Africa</h1>
+
+<!-- Short Paragraph -->
+    <p style="width: 60%; text-align: justify; margin: 0 auto; margin-top: 20px;">
+        As part of tutorial on Deep Learning for remote sensing I worked with a TensorFlow and a U-Net model to detect a binary class of agricultural fields in the Western Cape, South Africa. This model is rather basic using 4 Sentinel 2 bands (2, 3, 4, and 8) with a batch size of 64, data augmentation of 3 (by rotation and scaling) but with early stopping and checkpointing to avoid overfitting. The accuracy was not great with more data and layers needed to develop greater accuracy. In addition, the training data accuracy can be improved.</p>
+
+    <!-- Images side by side -->
+    <div style="display: flex; justify-content: center; margin-top: 20px;">
+        <!-- Image 1 -->
+        <div style="margin-right: 20px; text-align: center;">
+            <img src="Test 1.png" alt="Image 1" style="width: 250px; height: 250px; display: block; margin: 0 auto;">
+            <p style="margin-top: 10px; padding: 0;">Sample tile input</p>
+        </div>
+
+        <!-- Image 2 -->
+        <div style="margin-left: 20px; text-align: center;">
+            <img src="Test 2.png" alt="Image 2" style="width: 250px; height: 250px; display: block; margin: 0 auto;">
+            <p style="margin-top: 10px; padding: 0;">Sample tile mask</p>
+        </div>
+    </div>
+     
+    <!-- Short Paragraph -->
+    <p style="width: 60%; text-align: justify; margin: 0 auto;">
+        Below is a random sample tile showing the estimation of crop land. The area tested is a major grape growing region and so this output is an estimation of the grape growing areas in a neighbouring area. The model is not operational as the accuracy is too low. I am working on increasing the sample size to improve accuracy.
+        </p>
+  
+<!-- Images side by side -->
+    <div style="display: flex; justify-content: center; margin-top: 20px;">
+        <!-- Image 1 -->
+        <div style="margin-right: 20px; text-align: center;">
+            <img src="Grape Test WC.png" alt="Image 1" style="width: 250px; height: 250px; display: block; margin: 0 auto;">
+            <p style="margin-top: 10px; padding: 0;">Sample of test data</p>
+        </div>
+
+        <!-- Image 2 -->
+        <div style="margin-left: 20px; text-align: center;">
+            <img src="Grape Detection WC.png" alt="Image 2" style="width: 250px; height: 250px; display: block; margin: 0 auto;">
+            <p style="margin-top: 10px; padding: 0;">Grape prediction</p>
+        </div>
+    </div>
+
+
+    <!-- Line -->
+    <div style="margin-bottom: 50px; margin-top: 50px;" class="line"></div>
+
+
+<h1>ResNet50 Model Classification of Satellite Images from EuroSat</h1>
+    <!-- Short Paragraph -->
+    <p style="width: 60%; text-align: justify; margin: 0 auto; margin-top: 20px;">
+        I ran 20 epochs of a ResNet50 model as an experimentation of training a model to classify satellite images. I used the EuroSat database to train and test the model. 
+        </p>
+  
+<!-- Images side by side -->
+    <div style="display: flex; justify-content: center; margin-top: 20px;">
+        <!-- Image 1 -->
+        <div style="margin-right: 20px; text-align: center;">
+            <img src="output.png" alt="Image 1" style="width: 300px; height: 300px; display: block; margin: 0 auto;">
+            <p style="margin-top: 10px; padding: 0;">Input data visualisation</p>
+        </div>
+
+        <!-- Image 2 -->
+        <div style="margin-left: 20px; text-align: center;">
+            <img src="Confusion.png" alt="Image 2" style="width: 300px; height: 300px; display: block; margin: 0 auto;">
+            <p style="margin-top: 10px; padding: 0;">Confusion matrix</p>
+        </div>
+    </div>
+
+
+    <!-- Line -->
+    <div style="margin-bottom: 50px; margin-top: 50px;" class="line"></div>
+
+    <h1 style=" margin-top: 80px;">PyTorch tutorial on image classification using Neural Networks</h1>
+
+
+
+     <!-- Short Paragraph -->
+    <p style="width: 60%; text-align: justify; margin: 0 auto; margin-top: 20px;">
+    I followed a tutorial on applying PyTorch and a DenseNet model to classify satellite images according to four classes: water, desert, green area, and clouds. <a href="https://medium.com/analytics-vidhya/pytorch-satellite-image-classification-using-neural-networks-47f2cd1f7d82" target="_blank" style="color: blue; text-decoration: underline;">A link</a> to the tutorial can be found here.
+    </p>
+
+
+  
+<!-- Images side by side -->
+    <div style="display: flex; justify-content: center; margin-top: 20px;">
+        <!-- Image 1 -->
+        <div style="margin-right: 20px; text-align: center;">
+            <img src="Visual training.png" alt="Image 1" style="width: 300px; height: 300px; display: block; margin: 0 auto;">
+            <p style="margin-top: 10px; padding: 0;">Input data visualisation</p>
+        </div>
+
+        <!-- Image 2 -->
+        <div style="margin-left: 20px; text-align: center;">
+            <img src="output 2.png" alt="Image 2" style="height: 75px; display: block; margin: 0 auto;">
+            <img src="output 3.png" alt="Image 2" style="height: 75px; display: block; margin: 0 auto;">
+            <img src="output 4.png" alt="Image 2" style="height: 75px; display: block; margin: 0 auto;">
+            <img src="output 5.png" alt="Image 2" style="height: 75px; display: block; margin: 0 auto;">
+
+            <p style="margin-top: 10px; padding: 0;">Output estimation</p>
+        </div>
+    </div>
+
+
+    <!-- Line -->
+    <div style="margin-bottom: 50px; margin-top: 50px;" class="line"></div>
+
+
+    <h1 style=" margin-top: 80px;">A webmap showing the mining on the West Coast of South Africa.</h1>
+
+
+
+     <!-- Short Paragraph -->
+    <p style="width: 60%; text-align: justify; margin: 0 auto; margin-top: 20px; margin-bottom: 50px;">
+    Current applications and approved operations for mining and oil and gas on the West Coast, South Africa Data gathered and synthesised by One Ocean Hub Research Group, Department of Environmental and Geographical Science, UCT. Disclaimer: This map is subject to constant updates based on available information. However, the accuracy of the polygons and the metadata cannot be guaranteed.
+Map compiled by Michael Lambrecht (November 2023).<a href="https://medium.com/analytics-vidhya/pytorch-satellite-image-classification-using-neural-networks-47f2cd1f7d82" target="_blank" style="color: blue; text-decoration: underline;">A link</a> to the tutorial can be found here.
+    </p>
+
+    <iframe src="https://mikeylamb.github.io/RSAMiningMap/" style="width: 80%; height: 500px; border: none;"></iframe>
+
+
+    <div style="margin-bottom: 50px; margin-top: 50px;" class="line"></div>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
