@@ -91,18 +91,6 @@ img {
     margin: 0 auto;
 }
 
-.profile-container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 80%;
-    margin: 0 auto;
-}
-
-.profile-pic {
-    max-width: 50%;
-    height: auto;
-    border-radius: 60%;
-}
 
 .euro-tour {
     max-width: 50%;
@@ -113,20 +101,6 @@ img {
    margin-bottom: 60px;
 }
 
-.interests {
-    text-align: left;
-    margin-top: 20px;
-    max-width: 40%;
-}
-
-.interests ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.interests li {
-    margin-bottom: 10px;
-}
 
 .about-me {
     text-align: center;
@@ -151,21 +125,72 @@ img {
     border-radius: 5px;
 }
 
+.container-div{
+    padding: 20px; /* Add padding inside the box */
+    background-color: #ffffff; /* Background color of the box */
+    border-radius: 15px; /* Curved edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow */
+    display: flex;
+
+}
 
 .contact-details {
-        display: flex;
-        gap: 15px; /* Adjust the gap to your preference */
-        justify-content: center;
-        margin-top: 60px;
-    }
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 60px;
+}
 
-    .contact-item {
-        display: flex;
-        align-items: center;
-    }
+.contact-item {
+    display: flex;
+    align-items: center;
+}
 
-    .contact-item img {
-        margin-right: 7px;
-        width: 30px;
-        height: 30px;
-    }
+.contact-item a {
+    text-decoration: none;
+    color: #333;
+}
+.contact-item img {
+    margin-right: 7px;
+    width: 30px;
+    height: 30px;
+}
+
+.profile-container {
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.profile-pic-container {
+    flex: 1; /* Take up 1 part of the available space */
+    text-align: center; /* Center the content horizontally */
+}
+
+.profile-pic {
+    max-width: 70%; /* Adjust as needed */
+    height: auto;
+    border-radius: 60%;
+    margin-top: 20px; /* Add margin for spacing */
+}
+
+.text-container {
+    flex: 1; /* Take up 1 part of the available space */
+    text-align: left;
+    margin-top: 20px; /* Add margin for spacing */
+    padding-left: 20px; /* Add padding for spacing between image and text */
+}
+
+.text-container h2 {
+    margin-bottom: 10px;
+}
+
+.text-container ul {
+    list-style-type: disc;
+    padding: 0;
+    margin: 0;
+}
+
+.text-container li {
+    margin-bottom: 10px;
+}
