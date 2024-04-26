@@ -71,17 +71,30 @@ header {
     z-index: 1000;
 }
 
-header h1 {
+h1 {
     margin: 0;
-    font-size:30px
+    font-size:25px;
+    margin-bottom: 30px;
 }
 
 
+.project-block {
+    display: inline-block;
+    border: 2px solid #646262;
+    width: 75%;
+    margin: 10x auto 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    padding: 20px;
+    text-align: center;
+    background: #ffffff;
+}
+
 p {
-    width: 60%;
+    width: 80%;
     text-align: justify;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 0px;
 }
 
 img {
@@ -109,8 +122,13 @@ img {
     margin-top: 50px;
 }
 
+body {
+    background: linear-gradient(to left top, #ffffff, rgb(226, 226, 226)); 
+    background-color: #ffffff;
+}
+
 .line {
-    width: 80%;
+    width: 75%;
     margin: 20px auto;
     border-bottom: 2px solid #ccc;
 }
